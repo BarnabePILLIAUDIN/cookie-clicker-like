@@ -16,7 +16,7 @@ export default {
     return {
       coins: 0,
       cpc: 1,
-      cps:1
+      cps:0
     }
   },
   methods: {

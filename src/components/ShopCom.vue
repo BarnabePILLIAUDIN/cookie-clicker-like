@@ -30,7 +30,7 @@ const updateCpc = (data) => {
 const updateCps = (data) => {
   return Object.entries(data)
     .map(([, value]) => value.cps * value.owned)
-    .reduce((acc, value) => acc + value, 1)
+    .reduce((acc, value) => acc + value, 0)
 }
 
 
